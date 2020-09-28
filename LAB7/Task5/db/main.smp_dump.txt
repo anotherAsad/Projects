@@ -1,0 +1,9 @@
+
+State Machine - |main|loaderFSM:FSM0|state
+Name state.STOP state.O state.L1 state.L0 state.E state.H 
+state.H 0 0 0 0 0 0 
+state.E 0 0 0 0 1 1 
+state.L0 0 0 0 1 0 1 
+state.L1 0 0 1 0 0 1 
+state.O 0 1 0 0 0 1 
+state.STOP 1 0 0 0 0 1 
